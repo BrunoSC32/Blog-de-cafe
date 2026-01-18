@@ -87,6 +87,9 @@ ul {
     border: none;
 }
 
+.button:hover {
+    cursor: pointer;
+}
 
 /** Header **/
 
@@ -113,6 +116,7 @@ ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 2rem;
     }
 }
 
@@ -178,6 +182,12 @@ ul {
 
 .article:last-of-type {
     border-bottom: none;
+}
+
+@media (min-width: 768px) {
+    .article button {
+        width: 30%;
+    }
 }
 
 /** Sidebar **/
