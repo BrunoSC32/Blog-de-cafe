@@ -196,24 +196,24 @@ ul {
         margin: 0; 
 }
 
-.courses p {
+.widget-courses p {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.course span {
+.widget-course span {
     font-weight: 400;
 }
 
-.course {
+.widget-course {
     border-bottom: solid 1px rgba(163, 163, 163, 0.966);
 }
 
-.course:last-of-type {
+.widget-course:last-of-type {
     border-bottom: none;
 }
 
-.course button {
+.widget-course button {
     background-color: var(--primary);
 }
 
