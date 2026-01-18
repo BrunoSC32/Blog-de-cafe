@@ -228,3 +228,18 @@ ul {
         margin: 2rem 0;
     }
 }
+
+/** Nosotros **/
+
+.sobre-nosotros__text p:first-of-type{
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px ){
+    .sobre-nosotros {
+        display: grid;  
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+}
