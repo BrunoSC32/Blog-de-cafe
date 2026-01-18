@@ -67,3 +67,40 @@ img {
 .text-center {
     text-align: center;
 }
+
+
+/** Header **/
+
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__text {
+    text-align: center;
+    color: var(--white);
+    margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+    .bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    color: var(--white);
+}
+
+.logo__name {
+    font-weight: normal;
+}
+
+.logo__bold {
+    font-weight: bold;
+}
