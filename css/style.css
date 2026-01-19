@@ -277,3 +277,50 @@ ul {
         gap: 2rem;
     }
 }
+
+/** Contacto **/
+
+.contacto{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.form {
+    background-color: var(--white);
+    margin: -10rem auto 0 auto;
+    width: 90%;
+    padding: 5rem 02rem;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.field__label {
+    flex: 0 0 7rem;
+    text-align: right;
+
+}
+
+.field__input {
+    flex: 1;
+    border: solid 1px rgb(196, 193, 193)
+}
+
+.field__text-area {
+    flex: 1;
+    border: solid 1px rgb(196, 193, 193);
+    height: 20rem;
+}
+
+@media (min-width: 768px) {
+    .button__form {
+        width: 20rem;
+    }
+}
